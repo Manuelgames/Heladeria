@@ -19,6 +19,10 @@ body{
     align-items: center;
     background-color: rgb(67, 179, 185);
 }
+.header h1:hover{
+    font-size: 6rem;
+}
+
 .header--nav-ul{
     display: flex;
     width: 100%;
@@ -26,48 +30,81 @@ body{
 }
 .header--nav-ul h1{
     font-family:serif;
-    font-size: 2.5rem;
+    font-size: 5rem;
     color: white;
 }
 
 
 .main{
-    display: flex;
     height: auto;
     width: 100%;
     min-height: 400px;
 }
 
-.main--Subtitulo-h1{
-    display: flex;
-    width: 100%;
-    height: 250px;
-    align-items: center;
-    justify-content: center;
-}
+
 
 
 .main--section-inicio{
     display: flex;
-    margin: 40px;
-    height: 250px;
-    width: 250px;
-    justify-content: flex-end;
+    height: 270px;
+    width: 100%;
+    justify-content: space-between;
     align-items: center;
 }
-.main--section-inicio img{
-    height: 250px;
-    width: 400px;
+
+
+.section-inicio-titulo{
+    margin: 20px;
+    justify-content: center;
+} 
+.section-inicio-titulo h1{
+    font-size: 3rem;
+}
+.section-inicio-titulo h1:hover{
+    box-shadow: 0 6px 6px 0 #20212447;
+    cursor: pointer;
+    background-color: antiquewhite;
+    font-size: 3.2rem;
 }
 
 
 
+.main--section-inicio img{
+    height: 100%;
+    width: 500px;
+}
 
+.main--section-misionvision{
+    display: flex;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.6rem;
+    background-color: antiquewhite;
+}
 
+.main--section-misionvision{
+    height: 120px;
+}
+.main--section-misionvision:hover{
+    box-shadow: 3px 3px 3px 3px #20212447;
+}
 
+.main-section-conoce{
+    text-align: center;
+    font-size: 1.4rem;
+}
+.section-conoce-img{
+    height: 250px;
+    margin-top: 20px;
+}
+.section-conoce-img:hover{
+    justify-content: center;
+    background-color: none;
+}
 
-
-
+.section-conoce-img img{
+    height: 250px;
+}
 
 
 
@@ -77,6 +114,10 @@ body{
     width: 100%;
     min-height: 100px;
     height: auto;
-    background-color: rgb(67, 179, 185);
+    background-color: antiquewhite;
     margin: 70px 0 0 0;
+}
+
+.footer ul li{
+    text-justify: center;
 }
