@@ -14,7 +14,7 @@ body{
 .header{
     display: grid;
     width: 100%;
-    height: 110px;
+    height: 130px;
     justify-content: center;
     align-items: center;
     background-color: rgb(67, 179, 185);
@@ -25,15 +25,20 @@ body{
 
 .header--nav-ul{
     display: flex;
-    width: 100%;
-    justify-content: center;
+    width: 1000px;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
 }
 .header--nav-ul h1{
     font-family:serif;
     font-size: 5rem;
     color: white;
 }
-
+.header--nav-ul img{
+    height: 130px;
+    width: 160px;
+}
 
 .main{
     height: auto;
