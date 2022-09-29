@@ -73,6 +73,7 @@ body{
     object-fit: cover;
     padding-top: 25px;
     border-radius: 40%;
+    animation: awaitAnimationWin 6s infinite;
 }
 .portada-img h1{
     padding-top: 10px;
@@ -168,4 +169,34 @@ body{
 
 .footer ul li{
     text-justify: center;
+}
+
+@keyframes awaitAnimationWin {
+    0% {
+        transform: translateY(0px);
+    }
+    10% {
+        transform: translateY(-5px);
+    }
+    20% {
+        transform: translateY(5px);
+    }
+    30% {
+        transform: translateY(0px) rotateY(360deg);
+    } 
+    40% {
+        transform: rotate(35deg);
+    }
+    55% {
+        transform: rotate(-20deg);
+    }
+    70% {
+        transform: rotate(30deg);
+    }
+    85% {
+        transform: rotate(-20deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
 }
