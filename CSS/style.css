@@ -64,7 +64,7 @@ body{
     height: inherit;
     justify-content: center;
     align-items: center;
-    padding-bottom: 140px;
+    padding-bottom: 90px;
     color: aliceblue;
 }
 .portada-img img{
@@ -78,6 +78,7 @@ body{
 .portada-img h1{
     padding-top: 10px;
     font-size: 4rem;
+    box-shadow: 0 2px px 2px black;
 }
 
 .main-portada{
@@ -95,7 +96,9 @@ body{
     height: 400px;
 }
 
-
+.main-section-productos:hover{
+    background-color: rgb(237, 233, 233);
+}
 .section-inicio-titulo{
     position: absolute;
     display: flex;
@@ -125,44 +128,73 @@ body{
 
 .main--section-misionvision{
     display: flex;
+    height: 170px;
+    justify-content: space-around;
+    align-items: center;
     text-align: center;
     font-weight: 600;
     font-size: 1.6rem;
-    background-color: antiquewhite;
+    background-color: rgb(132, 214, 228);
 }
 
-.main--section-misionvision{
-    height: 120px;
-}
 .main--section-misionvision:hover{
     box-shadow: 3px 3px 3px 3px #20212447;
 }
 
+.section-mision{
+    width: 400px;
+}
+
+.section-vision{
+ width: 400px;
+}
+
+
+
 .main-section-conoce{
     text-align: center;
     font-size: 1.4rem;
+    margin: 10px 0;
 }
+
 .section-conoce-img{
+    display: flex;
     height: 250px;
+    justify-content: space-around;
     margin-top: 20px;
 }
-.section-conoce-img:hover{
+
+.section-conoce-img img:hover{
+    margin: 1px black;
+}
+
+
+
+
+
+.main-section-correoform{
+    height: 100px;
+    width: 100%;
+   text-align: center;
     justify-content: center;
-    background-color: none;
+    background-color:  rgb(132, 214, 228);
 }
 
 .section-conoce-img img{
     height: 250px;
+    width: 200px;
+    border-radius: 30px;
 }
+
 
 
 
 
 .footer{
-    display: flex;
     width: 100%;
     min-height: 100px;
     height: auto;
+    text-align: center;
     background-color: antiquewhite;
     margin: 70px 0 0 0;
 }
