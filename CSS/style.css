@@ -11,6 +11,7 @@ body{
     height: 100vh;
     width: 100%;
     justify-content: center;
+    background-image: linear-gradient(to left bottom, #d9eef1, #d0e7f6, #d2ddf8, #e0d0f0, #f1c3dc);
 }
 .header{
     display: grid;
@@ -138,7 +139,6 @@ body{
 .section-conoce-img img{
     height: 250px;
     width: 200px;
-
     border-radius: 30px;
     transition: all .3s;
 }
@@ -163,8 +163,7 @@ body{
 }
 /*PRODUCTOS*/
 .main-section-tipoproductos{
-    height: auto;
-    min-height: 250px;
+    min-height: 280px;
     width: 100%;
     text-align: center;
     padding: 0 30px;
@@ -175,16 +174,66 @@ body{
     background-color:  rgb(174, 232, 242);
     border: 6px solid pink;
 }
+
 .productos-img{
     display: flex;
+    height: 250px;
     justify-content: space-around;
+    align-items: center;
     margin: 20px 0;
+    background-color: pink;
+}
+.productos-img:hover{
+    background-color: rgb(254, 152, 169);
 }
 .productos-img img{
-    height: 220px;
-    width: 220px;
+    height: 210px;
+    width: 210px;
     border-radius: 100%;
+    transition: all .3s;
 }
+.productos-img img:hover{
+    width: 230px;
+    height: 230px;
+}
+/*SUCURSALES*/
+.main-section-sucursales{
+    width: 100%;
+    min-height: 600px;
+    margin: 90px 0;
+    border: 10px solid  pink;
+    background-image: linear-gradient(to right top, #8ce1ee, #84d3ff, #a1bfff, #cea5ee, #f08bc1);
+}
+.main-section-sucursales:hover{
+    background-color: antiquewhite;
+}
+
+.main-section-sucursales h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+.section-sucursales-container{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    margin-top: 90px;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.section-sucursales-ubicacion img{
+    width: 200x;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.section-sucursales-ubicacion img:hover{
+    box-shadow: 6px 6px 6px 6px rgb(78, 76, 76);
+}
+
+
 
 
 /*MISION Y VISION*/
@@ -195,7 +244,7 @@ body{
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    margin: 30px 0 30px 0;
+    margin: 60px 0 60px 0;
     border: 6px solid pink;
     font-weight: 600;
     font-size: 1.6rem;
@@ -226,7 +275,7 @@ body{
     text-align: center;
     justify-content: center;
     margin: 30px 0 30px 0;
-    background-color:  rgb(132, 214, 228);
+    background-image: linear-gradient(to left bottom, #8ce1ee, #84d3ff, #a1bfff, #cea5ee, #f08bc1);
 }
 
 
@@ -238,13 +287,20 @@ body{
     min-height: 100px;
     height: auto;
     text-align: center;
-    background-color: antiquewhite;
+    background-color: #d4a0e6;
     margin: 70px 0 0 0;
 }
 
 .footer ul li{
     text-justify: center;
+    font-size: 1.6rem;
 }
+.footer-ul-redes img{
+   height: 40px;
+   width: 40px; 
+   margin: 15px;
+}
+
 /*ANIMACIONES*/
 @keyframes awaitAnimationWin {
     0% {
